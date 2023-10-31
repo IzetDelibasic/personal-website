@@ -16,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className='w-full bg-black min-h-screen py-2 lg:py-10 overflow-x-hidden px-6 lg:px-12 xl:px-20 text-gray-200'>{children}</div>
+      </body>
     </html>
   )
 }
