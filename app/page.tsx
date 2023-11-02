@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar"
 import { PortfolioCard } from "@/components/PortfolioCard"
+import Info from "@/components/Info"
 
 export default function Home(){
   return(
@@ -8,6 +9,7 @@ export default function Home(){
       <div className="min-h-screen space-y-8 lg:space-y-16 relative">
         <Navbar />
         <PortfolioCard />
+        <Info />
       </div>
     </div>
   )
