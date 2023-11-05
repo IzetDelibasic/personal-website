@@ -58,6 +58,45 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+    {/* SECTION 3  - PROJECTS */}
+    <div className="mt-20 lg:mt-56 space-y-8 lg:space-y-10 relative">
+    <div className='text-3xl lg:text-5xl font-light flex gap-2 flex-wrap justify-center pb-5'>
+      <span className='text-gray-500'>Selected</span> 
+      <span className='font-medium'>Works</span>
     </div>
+
+      <div className='space-y-20 lg:space-y-32 w-5/6 mx-auto'>
+        {/* WORK 1 */}
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full lg:w-5/6 border-gray-500 border-b lg:border-b-0 pb-12 lg:pb-0'>
+          <div className='col-span-1 w-full'>
+            <Image 
+              src="/images/tasty-treasure.png" 
+              className='rounded-3xl shadow-lg cursor-pointer' 
+              alt="work" 
+              width={1200} 
+              height={1200} 
+            />
+          </div>
+          <div className='col-span-1 w-full h-full flex flex-col justify-end space-y-8'>
+            <h1 className='uppercase font-medium'>TASTY TREASURES</h1>
+            <p className='text-3xl font-light leading-relaxed'>
+              <span className='text-gray-500'>This is my first solo project in </span>
+              <span className='font-semibold'>ReactJS</span>
+              <span className='text-gray-500'>, where I applied the knowledge I've learned and built </span>
+              <span className='font-semibold'>a frontend application for recipe ideas.</span>
+              <span className='text-gray-500'> I used Firebase as the database to allow users to save their profiles.</span>
+            </p>
+            <h6 className='font-light text-gray-400'>Web Application Design</h6>
+            <button className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>
+              <a href="https://github.com/IzetDelibasic/tasty-treasures" target="_blank" rel="noopener noreferrer">
+                View on Github
+              </a>
+            </button>          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   );
 }
