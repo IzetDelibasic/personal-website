@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="">
       {/* SECTION 1 - NAVBAR + HEADER + HERO*/}
-      <div className="min-h-screen space-y-8 lg:space-y-16 relative">
+      <div id="section1" className="min-h-screen space-y-8 lg:space-y-16 relative">
         <Navbar />
         <PortfolioCard />
         <Info />
@@ -16,7 +16,7 @@ export default function Home() {
       </div>
 
       {/* SECTION 2  - SKILLS */}
-      <div className="space-y-2 lg:space-y-2 relative">
+      <div id="section2" className="space-y-2 lg:space-y-2 relative">
         <div className='text-3xl lg:text-5xl font-light flex gap-2 flex-wrap justify-center'>
           <span className='text-gray-500'>Some of the</span> 
           <span className='font-medium'> technologies I have used: </span>
@@ -60,7 +60,7 @@ export default function Home() {
       </div>
 
     {/* SECTION 3  - PROJECTS */}
-    <div className="mt-20 lg:mt-56 space-y-8 lg:space-y-10 relative">
+    <div id="section3" className="mt-20 lg:mt-56 space-y-8 lg:space-y-10 relative">
     <div className='text-3xl lg:text-5xl font-light flex gap-2 flex-wrap justify-center pb-5'>
       <span className='text-gray-500'>Selected</span> 
       <span className='font-medium'>Works</span>
