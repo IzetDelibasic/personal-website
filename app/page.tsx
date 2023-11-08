@@ -74,11 +74,11 @@ export default function Home() {
               src="/images/tasty-treasure.png" 
               className='rounded-3xl shadow-lg cursor-pointer' 
               alt="work" 
-              width={1200} 
-              height={1200} 
+              width={600} 
+              height={600} 
             />
           </div>
-          <div className='col-span-1 w-full h-full flex flex-col justify-end space-y-8'>
+          <div className='col-span-1 w-full h-full flex flex-col justify-center items-center space-y-8'>
             <h1 className='uppercase font-medium'>TASTY TREASURES</h1>
             <p className='text-3xl font-light leading-relaxed'>
               <span className='text-gray-500'>This is my first solo project in </span>
@@ -97,6 +97,35 @@ export default function Home() {
         </div>
       </div>
     </div>
+    
+    {/* WORK 2 */}
+    <div className="flex w-full justify-end mt-20">
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 w-full lg:w-5/6  border-gray-500 border-b lg:border-b-0 pb-12 lg:pb-0'>
+          <div className='col-span-1 w-full h-full flex flex-col justify-center items-center space-y-8'>
+            <h1 className='uppercase font-medium'>Survival Quest</h1>
+            <p className='text-3xl font-light leading-relaxed'>
+              <span className='text-gray-500'>A survival game being developed using </span>
+              <span className='font-semibold'>Unity and C# scripts</span>
+              <span className='text-gray-500'>, offering a high level of immersion and a wide range of features. The game is currently in the development phase, with much more to come soon.</span>
+            </p>
+            <h6 className='font-light text-gray-400'>Game Folder</h6>
+            <button className='justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black'>
+              <a href="https://github.com/IzetDelibasic/survival-quest" target="_blank" rel="noopener noreferrer">
+                View on Github
+              </a>
+            </button>   
+          </div>
+          <div className='col-span-1 w-full'>
+            <Image 
+              src="/images/survival-quest.png" 
+              className='rounded-3xl shadow-lg cursor-pointer' 
+              alt="work" 
+              width={600} 
+              height={600} 
+            />
+          </div>
+        </div>
+      </div>
   </div>
   );
 }
