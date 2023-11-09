@@ -4,7 +4,7 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <div className="">
-        <div id="section3" className="mt-20 lg:mt-56 space-y-8 lg:space-y-10 relative">
+        <div id="myprojects" className="mt-20 lg:mt-56 space-y-8 lg:space-y-10 relative">
         <div className='text-3xl lg:text-5xl font-light flex gap-2 flex-wrap justify-center pb-5'>
             <span className='text-gray-500'>Selected</span> 
             <span className='font-medium'>Works</span>
