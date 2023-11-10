@@ -48,6 +48,7 @@ export const Navbar = () => {
         <li className="relative">
           <a
             href="#"
+            onClick={() => scrollToSection('aboutme')}
             className="font-bold text-sm uppercase hover:text-blue-400 transition-all"
           >
             ABOUT ME

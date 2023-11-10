@@ -6,6 +6,7 @@ import Info from "@/components/Info";
 import { FiChevronDown } from "react-icons/fi";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import AboutMe from "@/components/AboutMe";
 
 export default function Home() {
   const scrollToSection = (id: string) => {
@@ -31,6 +32,10 @@ export default function Home() {
 
       {/* SECTION 3  - PROJECTS */}
       <Projects />
+
+      {/* SECTION 4  - ABOUT ME */}
+      <AboutMe />
+
   </div>
   );
 }
