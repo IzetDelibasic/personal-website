@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   return (
     <nav className="lg:flex lg:justify-between z-50 relative">
-      <h1 className="text-center text-2xl cursor-pointer font-black italic text-blue-400">
+      <h1 className="text-center text-2xl cursor-pointer font-black text-blue-400">
         IZET DELIBASIC
       </h1>
       <ul className="hidden lg:flex gap-12 items-center">

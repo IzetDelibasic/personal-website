@@ -11,7 +11,7 @@ export const PortfolioCard = () => {
 
     return (
       <div id='home'>
-            <div className='w-fit card mx-auto py-4 lg:py-6 block lg:flex gap-0 z-50 relative bg-gray-700 border-gray-200 border-4'>
+            <div className='w-fit card mx-auto py-4 lg:py-6 block lg:flex gap-0 z-50 relative bg-gray-700 border-gray-200 border-4 hover:rounded-[2rem] hover:rounded-br-none hover:bg-blue-950'>
                 <Lottie
                     loop={true}
                     animationData={personAnimation}
