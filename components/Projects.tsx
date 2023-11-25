@@ -27,7 +27,7 @@ const Projects = () => {
               <p className="text-3xl font-light leading-relaxed">
                 <span className="text-gray-500">This is my first solo project in </span>
                 <span className="font-semibold">ReactJS</span>
-                <span className="text-gray-500">, where I applied the knowledge I've learned and built </span>
+                <span className="text-gray-500">, where I applied the knowledge I&apos;ve learned and built </span>
                 <span className="font-semibold">a frontend application for recipe ideas.</span>
                 <span className="text-gray-500"> I used Firebase as the database to allow users to save their profiles.</span>
               </p>
