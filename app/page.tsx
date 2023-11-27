@@ -1,12 +1,15 @@
 'use client'
 
-import { Navbar } from "@/components/Navbar";
-import { PortfolioCard } from "@/components/PortfolioCard";
-import Info from "@/components/Info";
+// Icons
 import { FiChevronDown } from "react-icons/fi";
-import Skills from "@/components/Skills";
-import Projects from "@/components/Projects";
-import AboutMe from "@/components/AboutMe";
+
+// Components
+import Navbar from "@/components/NavbarComponent";
+import PortfolioCard from "@/components/CardComponent";
+import Info from "@/components/InfoComponent";
+import Skills from "@/components/SkillsComponent";
+import Projects from "@/components/ProjectsComponent";
+import AboutMe from "@/components/AboutComponent";
 
 export default function Home() {
   const scrollToSection = (id: string) => {
