@@ -56,3 +56,5 @@ export const PortfolioCard = () => {
       </div>
     )
 };
+
+export default PortfolioCard;
