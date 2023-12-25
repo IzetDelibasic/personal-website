@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div className="">
       <div id="myskills" className="space-y-2 lg:space-y-2 relative">
-        <div className="text-3xl lg:text-5xl font-light flex gap-2 flex-wrap justify-center items-center card border-gray-200 border-4 p-10 lg:w-3/4 xl:w-2/4 mx-auto">
+        <div className="text-3xl lg:text-5xl font-light flex gap-2 flex-wrap justify-center items-center card border-gray-200 border-4 p-10 lg:w-3/4 xl:w-2/4 mx-auto font-subtitle">
           <span className="text-gray-500">Some of the</span>
           <span className="font-medium"> technologies I have used: </span>
         </div>
@@ -27,7 +27,7 @@ const Skills = () => {
       </div>
 
       <div className="space-y-2 lg:space-y-2 relative pt-40">
-        <div className="text-3xl lg:text-5xl font-light flex gap-2 flex-wrap justify-center items-center card border-gray-200 border-4 p-10 lg:w-3/4 xl:w-2/4 mx-auto">
+        <div className="text-3xl lg:text-5xl font-light flex gap-2 flex-wrap justify-center items-center card border-gray-200 border-4 p-10 lg:w-3/4 xl:w-2/4 mx-auto font-subtitle">
           <span className="text-gray-500">Some of the</span>
           <span className="font-medium"> tools I have used: </span>
         </div>

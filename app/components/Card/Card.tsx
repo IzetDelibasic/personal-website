@@ -17,7 +17,7 @@ export const PortfolioCard = () => {
             animationData={personAnimation}
             className="w-44 mx-auto xl:w-56 2xl:w-64"
           />
-          <div className="px-8 lg:px-10 min-h-fit mx-auto text-center items-center justify-center flex">
+          <div className="px-8 lg:px-10 min-h-fit mx-auto text-center items-center justify-center flex font-subtitle">
             <div className="w-full h-fit space-y-3">
               <h2 className="font-semibold w-full text-2xl justify-center lg:justify-start mx-auto lg:mx-0 flex gap-2 flex-wrap">
                 <span>Welcome to </span>

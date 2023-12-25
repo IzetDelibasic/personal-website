@@ -4,12 +4,12 @@ const About = () => {
     return (
         <div className="" id="aboutme">
           <div className="space-y-12 mt-20 lg:mt-56">
-            <div className="text-3xl lg:text-5xl font-light flex gap-2 flex-wrap justify-center text-center items-center card border-gray-200 border-4 p-10 lg:w-[75%] xl:w-[25%] mx-auto">
+            <div className="text-3xl lg:text-5xl font-light flex gap-2 flex-wrap justify-center text-center items-center card border-gray-200 border-4 p-10 lg:w-[75%] xl:w-[25%] mx-auto font-subtitle">
               <span className="font-medium">ABOUT ME</span>
             </div>
     
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 py-20">
-              <div className="flex flex-col col-span-1 text-3xl font-light leading-relaxed h-full items-center xl:mt-[50px]">
+              <div className="flex flex-col col-span-1 text-3xl font-light leading-relaxed h-full items-center xl:mt-[50px] font-about">
                 <span className="text-gray-500">I am a passionate information technology student from Bosnia and Herzegovina who is trying to learn a lot about </span>
                 <span className="font-bold">Frontend development, coding and finding solutions for daily problems in real life using code. </span>
                 <span className="text-gray-500">Every criticism, correction of my mistakes, or suggestion is welcome. I am also an active handball player and sports fan.</span>
