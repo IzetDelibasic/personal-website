@@ -4,12 +4,12 @@
 import { FiChevronDown } from "react-icons/fi";
 
 // Components
-import Navbar from "@/components/NavbarComponent";
-import PortfolioCard from "@/components/CardComponent";
-import Info from "@/components/InfoComponent";
-import Skills from "@/components/SkillsComponent";
-import Projects from "@/components/ProjectsComponent";
-import AboutMe from "@/components/AboutComponent";
+import Navbar from "./components/Navbar";
+import PortfolioCard from "./components/Card";
+import Info from "./components/Info";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import AboutMe from "./components/About";
 
 export default function Home() {
   const scrollToSection = (id: string) => {
