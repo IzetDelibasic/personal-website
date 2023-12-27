@@ -5,6 +5,8 @@ import personAnimation from '@/animations/person.json';
 import handAnimation from '@/animations/hand.json';
 import computerAnimation from '@/animations/computer.json';
 import brainAnimation from '@/animations/brain.json';
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
 
 
 export const PortfolioCard = () => {

@@ -1,5 +1,9 @@
+// -React-
 import React from 'react';
+// -Next-
 import Image from "next/image";
+// -Constants-
+import { javascriptImage, typescriptImage, reactImage, nextImage } from '@/utils/constants/imageConstants';
 
 const Skills = () => {
   return (
@@ -12,16 +16,16 @@ const Skills = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-14 w-full pt-10">
           <div className="col-span-1 flex justify-center items-center">
-            <Image alt="htmlcssjs" src="/images/htmlcssjs.png" className="cursor-pointer hover:scale-105 transition-all" width={250} height={250} />
+            <Image alt="JavaScript" src={javascriptImage} className="cursor-pointer hover:scale-105 transition-all rounded-[1rem]" width={150} height={150} />
           </div>
           <div className="col-span-1 flex justify-center items-center">
-            <Image alt="react" src="/images/reactjs.png" className="cursor-pointer hover:scale-105 transition-all" width={170} height={170} />
+            <Image alt="TypeScript" src={typescriptImage} className="cursor-pointer hover:scale-105 transition-all" width={150} height={150} />
           </div>
           <div className="col-span-1 flex justify-center items-center">
-            <Image alt="clang" src="/images/clang.png" className="cursor-pointer hover:scale-105 transition-all" width={200} height={200} />
+            <Image alt="ReactJS" src={reactImage} className="cursor-pointer hover:scale-105 transition-all" width={150} height={150} />
           </div>
           <div className="col-span-1 flex justify-center items-center">
-            <Image alt="csharplang" src="/images/csharplang.png" className="cursor-pointer hover:scale-105 transition-all" width={160} height={160} />
+            <Image alt="NextJS" src={nextImage} className="cursor-pointer hover:scale-105 transition-all" width={150} height={150} />
           </div>
         </div>
       </div>
