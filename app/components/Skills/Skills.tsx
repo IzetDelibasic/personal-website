@@ -3,7 +3,7 @@ import React from 'react';
 // -Next-
 import Image from "next/image";
 // -Constants-
-import { javascriptImage, typescriptImage, reactImage, nextImage } from '@/utils/constants/imageConstants';
+import { javascriptImage, typescriptImage, reactImage, nextImage, gitImage, githubDesktopImage, firebaseImage, tailwindImage } from '@/utils/constants/imageConstants';
 
 const Skills = () => {
   return (
@@ -14,7 +14,7 @@ const Skills = () => {
           <span className="font-medium"> technologies I have used: </span>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-14 w-full pt-10">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-14 w-full pt-10">
           <div className="col-span-1 flex justify-center items-center">
             <Image alt="JavaScript" src={javascriptImage} className="cursor-pointer hover:scale-105 transition-all rounded-[1rem]" width={150} height={150} />
           </div>
@@ -36,18 +36,18 @@ const Skills = () => {
           <span className="font-medium"> tools I have used: </span>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-14 w-full pt-10">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-14 w-full pt-10">
           <div className="col-span-1 flex justify-center items-center">
-            <Image alt="git" src="/images/git.png" className="cursor-pointer hover:scale-105 transition-all" width={160} height={160} />
+            <Image alt="Git" src={gitImage} className="cursor-pointer hover:scale-105 transition-all" width={160} height={160} />
           </div>
           <div className="col-span-1 flex justify-center items-center">
-            <Image alt="githubdesktop" src="/images/github-desktop.png" className="cursor-pointer hover:scale-105 transition-all" width={170} height={170} />
+            <Image alt="GithubDesktop" src={githubDesktopImage} className="cursor-pointer hover:scale-105 transition-all" width={170} height={170} />
           </div>
           <div className="col-span-1 flex justify-center items-center">
-            <Image alt="firebase" src="/images/firebase.png" className="cursor-pointer hover:scale-105 transition-all" width={150} height={150} />
+            <Image alt="Firebase" src={firebaseImage} className="cursor-pointer hover:scale-105 transition-all" width={150} height={150} />
           </div>
           <div className="col-span-1 flex justify-center items-center">
-            <Image alt="adobephotoshop" src="/images/photoshop.png" className="cursor-pointer hover:scale-105 transition-all" width={180} height={180} />
+            <Image alt="TailwindCSS" src={tailwindImage} className="cursor-pointer hover:scale-105 transition-all" width={180} height={180} />
           </div>
         </div>
       </div>
