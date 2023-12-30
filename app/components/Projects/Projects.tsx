@@ -33,7 +33,7 @@ const Projects = () => {
                   <span className="text-gray-500"> I used Firebase as the database to allow users to save their profiles.</span>
                 </p>
                 <h6 className="font-light text-gray-400">Web Application Design</h6>
-                <button className="justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black">
+                <button className="justify-start w-fit px-6 py-4 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black">
                   <a href="https://github.com/IzetDelibasic/tasty-treasures" target="_blank" rel="noopener noreferrer">
                     View on Github
                   </a>
@@ -52,7 +52,7 @@ const Projects = () => {
                   <span className="text-gray-500">, offering a high level of immersion and a wide range of features. The game is currently in the development phase, with much more to come soon.</span>
                 </p>
                 <h6 className="font-light text-gray-400 font-subtitle">Game Folder</h6>
-                <button className="justify-start w-fit px-6 py-2 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black">
+                <button className="justify-start w-fit px-6 py-4 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black">
                   <a href="https://github.com/IzetDelibasic/survival-quest" target="_blank" rel="noopener noreferrer">
                     View on Github
                   </a>
@@ -66,6 +66,36 @@ const Projects = () => {
                   width={600}
                   height={600}
                 />
+              </div>
+            </div>
+          </div>
+          {/* WORK 1 */}
+          <div className="flex w-full justify-center mt-[5rem]">  
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-[5rem] w-full lg:w-5/6 border-gray-500 border-b lg:border-b-0 pb-12 lg:pb-0">
+              <div className="col-span-1 w-full">
+                <Image
+                  src="/images/sumathermImage.png"
+                  className="rounded-[2rem] shadow-lg"
+                  alt="work"
+                  width={600}
+                  height={600}
+                />
+              </div>
+              <div className="col-span-1 w-full h-full flex flex-col justify-center items-center space-y-8 font-about text-center">
+                <h1 className="uppercase font-medium">SUMATHERM GMBH</h1>
+                <p className="text-3xl font-light leading-relaxed">
+                  <span className="text-gray-500">This is my first</span>
+                  <span className="font-semibold"> production project</span>
+                  <span className="text-gray-500">, where I worked for BlueDuck IT Services & Solutions company and </span>
+                  <span className="font-semibold">built an app for Sumatherm Company using NextJS.</span>
+                  <span className="text-gray-500"> I used TypeScript and Tailwind CSS. I learned to work with reusable components, constants, and other features for faster page speed.</span>
+                </p>
+                <h6 className="font-light text-gray-400">Web Application Link</h6>
+                <button className="justify-start w-fit px-6 py-4 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black">
+                  <a href="https://sumatherm-project.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    View application
+                  </a>
+                </button>
               </div>
             </div>
           </div>
