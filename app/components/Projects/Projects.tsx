@@ -1,5 +1,11 @@
+"use client";
+// -React-
 import React from "react";
+// -Next-
 import Image from "next/image";
+import dynamic from "next/dynamic";
+// -Button component-
+const Button = dynamic(() => import("@/app/components/Button/Button"));
 
 const Projects = () => {
   return (
@@ -17,7 +23,7 @@ const Projects = () => {
               <div className="col-span-1 w-full">
                 <Image
                   src="/images/tasty-treasure.png"
-                  className="rounded-[2rem] shadow-lg"
+                  className="rounded-[2rem] shadow-lg mx-auto"
                   alt="work"
                   width={600}
                   height={600}
@@ -33,11 +39,15 @@ const Projects = () => {
                   <span className="text-gray-500"> I used Firebase as the database to allow users to save their profiles.</span>
                 </p>
                 <h6 className="font-light text-gray-400">Web Application Design</h6>
-                <button className="justify-start w-fit px-6 py-4 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black">
-                  <a href="https://github.com/IzetDelibasic/tasty-treasures" target="_blank" rel="noopener noreferrer">
-                    View on Github
-                  </a>
-                </button>
+                <Button
+                  className="relative bg-blue-400 text-black border-[1px] border-black font-medium lg:py-[1.5rem] py-[1rem] lg:px-[2rem] px-[4.5rem] md:px-[11.5rem] rounded-[3rem] group overflow-hidden z-[1] lg:ml-[20px] hover:border-opacity-0 hover:border-transparent"
+                  iconClassName=""
+                  title="View on Github"
+                  titleClassName="group-hover:text-white"
+                  href="https://github.com/IzetDelibasic/tasty-treasures"
+                >
+                  <div className="absolute inset-0 bg-neutral-100 w-full transform origin-right transition-transform duration-300 group-hover:scale-x-0 z-[-1]"></div>
+                </Button>
               </div>
             </div>
           </div>
@@ -52,16 +62,20 @@ const Projects = () => {
                   <span className="text-gray-500">, offering a high level of immersion and a wide range of features. The game is currently in the development phase, with much more to come soon.</span>
                 </p>
                 <h6 className="font-light text-gray-400 font-subtitle">Game Folder</h6>
-                <button className="justify-start w-fit px-6 py-4 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black">
-                  <a href="https://github.com/IzetDelibasic/survival-quest" target="_blank" rel="noopener noreferrer">
-                    View on Github
-                  </a>
-                </button>
+                <Button
+                  className="relative bg-blue-400 text-black border-[1px] border-black font-medium lg:py-[1.5rem] py-[1rem] lg:px-[2rem] px-[4.5rem] md:px-[11.5rem] rounded-[3rem] group overflow-hidden z-[1] lg:ml-[20px] hover:border-opacity-0 hover:border-transparent"
+                  iconClassName=""
+                  title="View on Github"
+                  titleClassName="group-hover:text-white"
+                  href="https://github.com/IzetDelibasic/survival-quest"
+                >
+                  <div className="absolute inset-0 bg-neutral-100 w-full transform origin-right transition-transform duration-300 group-hover:scale-x-0 z-[-1]"></div>
+                </Button>
               </div>
               <div className="col-span-1 w-full">
                 <Image
                   src="/images/survival-quest.png"
-                  className="rounded-[2rem] shadow-lg"
+                  className="rounded-[2rem] shadow-lg mx-auto"
                   alt="work"
                   width={600}
                   height={600}
@@ -75,7 +89,7 @@ const Projects = () => {
               <div className="col-span-1 w-full">
                 <Image
                   src="/images/sumathermImage.png"
-                  className="rounded-[2rem] shadow-lg"
+                  className="rounded-[2rem] shadow-lg mx-auto"
                   alt="work"
                   width={600}
                   height={600}
@@ -90,12 +104,16 @@ const Projects = () => {
                   <span className="font-semibold">built an app for Sumatherm Company using NextJS.</span>
                   <span className="text-gray-500"> I used TypeScript and Tailwind CSS. I learned to work with reusable components, constants, and other features for faster page speed.</span>
                 </p>
-                <h6 className="font-light text-gray-400">Web Application Link</h6>
-                <button className="justify-start w-fit px-6 py-4 rounded-full shadow-lg border-gray-200 border-2 hover:bg-gray-200 hover:text-black">
-                  <a href="https://sumatherm-project.vercel.app/" target="_blank" rel="noopener noreferrer">
-                    View application
-                  </a>
-                </button>
+                <h6 className="font-light text-gray-400">Website Link</h6>
+                <Button
+                  className="relative bg-blue-400 text-black border-[1px] border-black font-medium lg:py-[1.5rem] py-[1rem] lg:px-[2rem] px-[4.5rem] md:px-[11.5rem] rounded-[3rem] group overflow-hidden z-[1] lg:ml-[20px] hover:border-opacity-0 hover:border-transparent"
+                  iconClassName=""
+                  title="Browse website"
+                  titleClassName="group-hover:text-white"
+                  href="https://sumatherm-project.vercel.app/"
+                >
+                  <div className="absolute inset-0 bg-neutral-100 w-full transform origin-right transition-transform duration-300 group-hover:scale-x-0 z-[-1]"></div>
+                </Button>
               </div>
             </div>
           </div>
