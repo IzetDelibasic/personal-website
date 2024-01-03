@@ -1,10 +1,13 @@
 'use client'
 
+// -Lottie-
 import Lottie from 'lottie-react';
+// -Animations-
 import personAnimation from '@/animations/person.json';
 import handAnimation from '@/animations/hand.json';
 import computerAnimation from '@/animations/computer.json';
 import brainAnimation from '@/animations/brain.json';
+// -Icons-
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 
@@ -13,7 +16,7 @@ export const PortfolioCard = () => {
 
     return (
       <div id="home">
-        <div className="w-fit card mx-auto py-4 lg:py-6 block lg:flex gap-0 z-50 relative bg-gray-700 border-gray-200 border-4 hover:rounded-[2rem] hover:rounded-br-none hover:bg-blue-950">
+        <div className="w-fit card mx-auto py-4 lg:py-6 block lg:flex gap-0 z-50 relative bg-gray-700 border-gray-200 border-4 hover:rounded-[2rem] hover:rounded-br-none">
           <Lottie
             loop={true}
             animationData={personAnimation}
@@ -51,6 +54,14 @@ export const PortfolioCard = () => {
                   <span>bringing ideas</span>
                   <span>to reality!</span>
                 </h2>
+                <div className='flex justify-between w-[20%]'>
+                  <a href="https://github.com/IzetDelibasic" className='mr-[1rem] cursor-pointer'>
+                    <FaGithub size={30}/>
+                  </a>
+                  <a href="https://www.linkedin.com/in/izet-delibasic/" className='cursor-pointer'>
+                    <FaLinkedin size={30}/>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
