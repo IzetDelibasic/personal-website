@@ -9,7 +9,7 @@ import computerAnimation from '@/animations/computer.json';
 import brainAnimation from '@/animations/brain.json';
 // -Icons-
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-
+import { MdOutlineContactMail } from "react-icons/md";
 
 
 export const PortfolioCard = () => {
@@ -54,12 +54,16 @@ export const PortfolioCard = () => {
                   <span>bringing ideas</span>
                   <span>to reality!</span>
                 </h2>
-                <div className='flex justify-between w-[20%]'>
+                <div className='flex items-center justify-between w-[70%]'>
+                  <div className='mr-[1rem]'>Reach me anytime:</div>
                   <a href="https://github.com/IzetDelibasic" className='mr-[1rem] cursor-pointer'>
                     <FaGithub size={30}/>
                   </a>
                   <a href="https://www.linkedin.com/in/izet-delibasic/" className='cursor-pointer'>
                     <FaLinkedin size={30}/>
+                  </a>
+                  <a href="mailto:izetdelibasic55@gmail.com" className='flex ml-[1rem] cursor-pointer'>
+                    <MdOutlineContactMail  size={30}/>
                   </a>
                 </div>
               </div>
