@@ -5,7 +5,7 @@ const About = () => {
         <div className="" id="aboutme">
           <div className="space-y-12 mt-[5rem] lg:mt-[14rem]">
             <div className="text-[1.75rem] lg:text-[3rem] font-light flex gap-2 flex-wrap justify-center text-center items-center card border-gray-200 border-4 p-[2rem] lg:w-[75%] xl:w-[25%] mx-auto font-subtitle">
-              <span className="font-medium">ABOUT ME</span>
+              <span className="font-medium">About</span>
             </div>
     
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 py-20">
