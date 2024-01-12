@@ -28,19 +28,19 @@ export default function Home() {
         <Navbar />
         <PortfolioCard />
         <Info />
-        <FiChevronDown className="mx-auto font-black text-6xl animate-bounce cursor-pointer mt-4" onClick={() => scrollToSection('myskills')} />
+        <FiChevronDown className="mx-auto font-black text-6xl animate-bounce cursor-pointer mt-4" onClick={() => scrollToSection('myprojects')} />
       </div>
+      {/* SECTION 2  - PROJECTS */}
+      <Projects />
+      
+      {/* SECTION 3  - EXPERIENCE */}
+      <Experience />
 
-      {/* SECTION 2  - SKILLS */}
+      {/* SECTION 4  - SKILLS */}
       <Skills />
 
-      {/* SECTION 3  - PROJECTS */}
-      <Projects />
-
-      {/* SECTION 4  - ABOUT ME */}
+      {/* SECTION 5  - ABOUT ME */}
       <AboutMe />
-      {/* SECTION 5  - EXPERIENCE */}
-      <Experience />
 
   </div>
   );
