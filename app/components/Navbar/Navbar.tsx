@@ -30,19 +30,28 @@ export const Navbar = () => {
         <li className="relative">
           <a
             href="#"
-            onClick={() => scrollToSection('myskills')}
+            onClick={() => scrollToSection('myprojects')}
             className="font-bold text-sm uppercase hover:text-blue-400 transition-all"
           >
-            MY SKILLS
+            MY PROJECTS
           </a>
         </li>
         <li className="relative">
           <a
             href="#"
-            onClick={() => scrollToSection('myprojects')}
+            onClick={() => scrollToSection('experience')}
             className="font-bold text-sm uppercase hover:text-blue-400 transition-all"
           >
-            MY PROJECTS
+            EXPERIENCE
+          </a>
+        </li>
+        <li className="relative">
+          <a
+            href="#"
+            onClick={() => scrollToSection('myskills')}
+            className="font-bold text-sm uppercase hover:text-blue-400 transition-all"
+          >
+            MY SKILLS
           </a>
         </li>
         <li className="relative">
