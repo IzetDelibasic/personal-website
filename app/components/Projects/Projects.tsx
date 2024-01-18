@@ -23,7 +23,7 @@ const Projects = () => {
               <div className="col-span-1 w-full">
                 <Image
                   src="/images/tasty-treasure.png"
-                  className="rounded-[2rem] shadow-lg mx-auto"
+                  className="rounded-[2rem] lg:rounded-tl-none lg:rounded-br-none lg:hover:rounded-br-[2rem] lg:hover:rounded-tl-[2rem] transition-all duration-300 shadow-lg mx-auto"
                   alt="work"
                   width={600}
                   height={600}
@@ -75,7 +75,7 @@ const Projects = () => {
               <div className="col-span-1 w-full">
                 <Image
                   src="/images/survival-quest.png"
-                  className="rounded-[2rem] shadow-lg mx-auto"
+                  className="rounded-[2rem] lg:rounded-tr-none lg:rounded-bl-none lg:hover:rounded-bl-[2rem] lg:hover:rounded-tr-[2rem] transition-all duration-300 shadow-lg mx-auto"
                   alt="work"
                   width={600}
                   height={600}
@@ -89,7 +89,7 @@ const Projects = () => {
               <div className="col-span-1 w-full">
                 <Image
                   src="/images/sumathermImage.png"
-                  className="rounded-[2rem] shadow-lg mx-auto"
+                  className="rounded-[2rem] lg:rounded-tl-none lg:rounded-br-none lg:hover:rounded-br-[2rem] lg:hover:rounded-tl-[2rem] transition-all duration-300 shadow-lg mx-auto"
                   alt="work"
                   width={600}
                   height={600}
