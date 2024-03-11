@@ -1,6 +1,7 @@
-'use client'
-
+// - React -
 import React from 'react';
+// - Constant -
+import { navbarConst } from '@/utils/constants/navbarConstant';
 
 export const Navbar = () => {
   const scrollToSection = (id: string) => {
@@ -10,61 +11,26 @@ export const Navbar = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
-  
 
   return (
-    <nav className="lg:flex lg:justify-between z-50 relative">
-      <h1 className="text-center text-2xl cursor-pointer font-black text-blue-400 font-subtitle">
+    <div className="lg:flex lg:justify-between z-50 relative">
+      <div className="text-center text-[1.5rem] cursor-pointer font-black text-blue-400 font-subtitle mt-10 lg:mt-0">
         IZET DELIBASIC
-      </h1>
-      <ul className="hidden lg:flex gap-12 items-center">
-        <li className="relative">
-          <a
-            href="#"
-            onClick={() => scrollToSection('home')}
-            className="font-bold text-sm uppercase hover:text-blue-400 transition-all"
-          >
-            HOME
-          </a>
-        </li>
-        <li className="relative">
-          <a
-            href="#"
-            onClick={() => scrollToSection('myprojects')}
-            className="font-bold text-sm uppercase hover:text-blue-400 transition-all"
-          >
-            MY PROJECTS
-          </a>
-        </li>
-        <li className="relative">
-          <a
-            href="#"
-            onClick={() => scrollToSection('experience')}
-            className="font-bold text-sm uppercase hover:text-blue-400 transition-all"
-          >
-            EXPERIENCE
-          </a>
-        </li>
-        <li className="relative">
-          <a
-            href="#"
-            onClick={() => scrollToSection('myskills')}
-            className="font-bold text-sm uppercase hover:text-blue-400 transition-all"
-          >
-            MY SKILLS
-          </a>
-        </li>
-        <li className="relative">
-          <a
-            href="#"
-            onClick={() => scrollToSection('aboutme')}
-            className="font-bold text-sm uppercase hover:text-blue-400 transition-all"
-          >
-            ABOUT ME
-          </a>
-        </li>
+      </div>
+      <ul className="hidden lg:flex gap-[3rem] items-center">
+        {navbarConst.map(item => (
+          <li className="relative" key={item.sectionId}>
+            <a
+              href="#"
+              onClick={() => scrollToSection(item.sectionId)}
+              className="font-medium font-subtitle text-[1rem] uppercase hover:text-blue-400 ease-in-out duration-200"
+            >
+              {item.title}
+            </a>
+          </li>
+        ))}
       </ul>
-    </nav>
+    </div>
   );
 };
 
