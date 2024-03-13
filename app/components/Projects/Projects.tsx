@@ -32,7 +32,7 @@ const Projects = () => {
                     height={600}
                   />
                 </div>
-                <div className="col-span-1 w-full h-full flex flex-col justify-center items-center space-y-8 font-about text-center">
+                <div className="col-span-1 w-full h-full flex flex-col justify-center items-center space-y-8 font-montserrat text-center">
                   <h1 className="uppercase font-medium">{project.title}</h1>
                   <p className="xl:text-[1.2rem] font-light leading-relaxed">
                     {project.description}
