@@ -4,14 +4,14 @@ export const projectsConstant = [
     description: "This is my first solo project in ReactJS, where I applied the knowledge I've learned and built a frontend application for recipe ideas. I used Firebase as the database to allow users to save their profiles.",
     imageSrc: "/images/tasty-treasure.png",
     link: "https://github.com/IzetDelibasic/tasty-treasures",
-    buttonTitle: "View on GitHub"
+    buttonTitle: "View repository"
   },
   {
     title: "Survival Quest",
     description: "A survival game being developed using Unity and C# scripts, offering a high level of immersion and a wide range of features. The game is currently in the development phase, with much more to come soon.",
     imageSrc: "/images/survival-quest.png",
     link: "https://github.com/IzetDelibasic/survival-quest",
-    buttonTitle: "View on GitHub"
+    buttonTitle: "View repository"
   },
   {
     title: "SUMATHERM GMBH",

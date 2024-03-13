@@ -15,13 +15,8 @@ const Projects = () => {
         </div>
 
         <div className="space-y-20 lg:space-y-32 w-[90%] md:w-[80%] mx-auto">
-          {projectsConstant.map((project, index) => (
-            <div
-              key={index}
-              className={`flex w-full items-center justify-center mt-[5rem] ${
-                index % 2 === 0 ? "" : "lg:flex-col"
-              }`}
-            >
+          {projectsConstant.map((project) => (
+            <div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-[5rem] w-full lg:w-[90%] border-gray-500 border-b lg:border-b-0 pb-12 lg:pb-0">
                 <div className="col-span-1 w-full">
                   <Image
