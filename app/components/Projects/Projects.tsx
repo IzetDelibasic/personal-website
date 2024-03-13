@@ -8,7 +8,10 @@ const Button = dynamic(() => import("@/app/components/Button/Button"));
 const Projects = () => {
   return (
     <div className="">
-      <div id="myprojects" className="mt-[5rem] lg:mt-[10rem] space-y-8 lg:space-y-10 relative">
+      <div
+        id="myprojects"
+        className="mt-[5rem] lg:mt-[10rem] space-y-8 lg:space-y-10 relative"
+      >
         <div className="text-[2rem] lg:text-[2.5rem] font-light flex gap-2 flex-wrap justify-center text-center items-center card border-gray-200 border-4 p-10 w-[90%] sm:w-[60%] md:w-[50%] xl:w-[25%] mx-auto font-subtitle">
           <span className="text-gray-500">Selected</span>
           <span className="font-medium">Works</span>

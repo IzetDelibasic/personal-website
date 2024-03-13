@@ -1,10 +1,10 @@
 // -React-
-import React from 'react';
+import React from "react";
 // -Next-
 import Image from "next/image";
 // -Constants-
-import { technologyConstant } from '@/utils/constants/technologyConstant';
-import { toolsConstant } from '@/utils/constants/toolsConstant';
+import { technologyConstant } from "@/utils/constants/technologyConstant";
+import { toolsConstant } from "@/utils/constants/toolsConstant";
 
 const Skills = () => {
   return (
@@ -17,8 +17,17 @@ const Skills = () => {
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-14 w-full pt-10">
           {technologyConstant.map((image, index) => (
-            <div key={index} className="col-span-1 flex justify-center items-center">
-              <Image alt={image.alt} src={image.src} className="cursor-pointer hover:scale-105 transition-all rounded-[1rem]" width={150} height={150} />
+            <div
+              key={index}
+              className="col-span-1 flex justify-center items-center"
+            >
+              <Image
+                alt={image.alt}
+                src={image.src}
+                className="cursor-pointer hover:scale-105 transition-all rounded-[1rem]"
+                width={150}
+                height={150}
+              />
             </div>
           ))}
         </div>
@@ -31,14 +40,23 @@ const Skills = () => {
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-14 w-full pt-10">
           {toolsConstant.map((image, index) => (
-            <div key={index} className="col-span-1 flex justify-center items-center">
-              <Image alt={image.alt} src={image.src} className="cursor-pointer hover:scale-105 transition-all" width={150} height={150} />
+            <div
+              key={index}
+              className="col-span-1 flex justify-center items-center"
+            >
+              <Image
+                alt={image.alt}
+                src={image.src}
+                className="cursor-pointer hover:scale-105 transition-all"
+                width={150}
+                height={150}
+              />
             </div>
           ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Skills;

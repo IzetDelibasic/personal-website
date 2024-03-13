@@ -1,14 +1,14 @@
 // - React -
-import React from 'react';
+import React from "react";
 // - Constant -
-import { navbarConst } from '@/utils/constants/navbarConstant';
+import { navbarConst } from "@/utils/constants/navbarConstant";
 
 export const Navbar = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       console.log(`Scrolling to section with ID: ${id}`);
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -18,7 +18,7 @@ export const Navbar = () => {
         IZET DELIBASIC
       </div>
       <ul className="hidden lg:flex gap-[3rem] items-center">
-        {navbarConst.map(item => (
+        {navbarConst.map((item) => (
           <li className="relative" key={item.sectionId}>
             <a
               href="#"

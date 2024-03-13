@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 // Icons
 import { FiChevronDown } from "react-icons/fi";
@@ -17,22 +17,28 @@ export default function Home() {
     const element = document.getElementById(id);
     if (element) {
       console.log(`Scrolling to section with ID: ${id}`);
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   return (
     <div className="">
       {/* SECTION 1 - NAVBAR + HEADER + HERO*/}
-      <div id="section1" className="min-h-screen space-y-8 lg:space-y-16 relative">
+      <div
+        id="section1"
+        className="min-h-screen space-y-8 lg:space-y-16 relative"
+      >
         <Navbar />
         <PortfolioCard />
         <Info />
-        <FiChevronDown className="mx-auto font-black text-6xl animate-bounce cursor-pointer mt-4" onClick={() => scrollToSection('myprojects')} />
+        <FiChevronDown
+          className="mx-auto font-black text-6xl animate-bounce cursor-pointer mt-4"
+          onClick={() => scrollToSection("myprojects")}
+        />
       </div>
       {/* SECTION 2  - PROJECTS */}
       <Projects />
-      
+
       {/* SECTION 3  - EXPERIENCE */}
       <Experience />
 
@@ -41,7 +47,6 @@ export default function Home() {
 
       {/* SECTION 5  - ABOUT ME */}
       <AboutMe />
-
-  </div>
+    </div>
   );
 }
