@@ -26,7 +26,7 @@ export const projectsConstant = [
   {
     title: "HIREFY APP",
     description: "Coming soon.",
-    imageSrc: "/images/sumathermImage.png",
+    imageSrc: "/images/hirefyImage.png",
     link: "",
     buttonTitle: "View application",
   },
