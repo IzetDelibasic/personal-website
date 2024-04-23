@@ -9,4 +9,10 @@ export const educationConstant = [
     educationDescription:
       " Intermediate level course, DOM Manipulation and API integration",
   },
+  {
+    educationTitle: "MERN 2024 EDITION",
+    educationDescription:
+      "MongoDB, Express, React and NodeJS Udemy Course - John Smilga",
+    href: "https://udemy-certificate.s3.amazonaws.com/image/UC-210c2883-855b-4bd7-a7f2-5f5ca51d31df.jpg?v=1713014388000",
+  },
 ];

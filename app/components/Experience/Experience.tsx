@@ -13,15 +13,17 @@ const Experience = () => {
           <span className="font-medium">Education and courses</span>
         </div>
         <div className="w-[95%] mx-auto text-center font-subtitle flex lg:flex-row flex-col lg:justify-between justify-center items-center">
-          <div className="my-[1rem] grid md:grid-cols-2 grid-cols-1 mx-auto lg:border-r-0 border-b-2 lg:border-b-0 border-gray-400 lg:px-[1rem] py-[1rem]">
+          <div className="my-[1rem] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto lg:border-r-0 border-b-2 lg:border-b-0 border-gray-400 lg:px-[1rem] py-[1rem]">
             {educationConstant.map((education) => (
               <div key={education.educationTitle} className="p-4">
-                <div className="md:text-[2rem] font-montserrat">
-                  {education.educationTitle}
-                </div>
-                <div className="md:text-[1.2rem] font-extralight">
-                  {education.educationDescription}
-                </div>
+                <a href={education.href} className="p-4">
+                  <div className="md:text-[2rem] font-montserrat">
+                    {education.educationTitle}
+                  </div>
+                  <div className="md:text-[1.2rem] font-extralight">
+                    {education.educationDescription}
+                  </div>
+                </a>
               </div>
             ))}
           </div>
