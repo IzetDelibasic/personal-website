@@ -28,7 +28,7 @@ export const projectsConstant = [
     description:
       "As my first full-stack project, there's the Hirefy application built using React for the frontend, Node.js and Express for the backend, and MongoDB as the database. Hirefy is a job board allowing users to browse and post job listings. I utilized this experience to learn the fundamentals of full-stack development and familiarize myself with modern technologies such as React, Node.js, Express, and MongoDB.",
     imageSrc: "/images/hirefyImage.png",
-    link: "https://github.com/IzetDelibasic/hirefy-app",
+    link: "https://hirefy-app.onrender.com/",
     buttonTitle: "View application",
   },
 ];
