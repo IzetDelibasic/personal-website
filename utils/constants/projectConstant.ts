@@ -20,15 +20,15 @@ export const projectsConstant = [
     description:
       "We created a full-stack application for traveling. The front-end part I worked on was developed using ReactJs and TailwindCSS. This project will be presented at the FIT CC 2024 competition as part of the Innovation Challenge.",
     imageSrc: "/images/jumpinImage.png",
-    link: "https://github.com/IzetDelibasic/jumpin-frontend",
-    buttonTitle: "View repository",
+    link: "https://jumpin-app.vercel.app/",
+    buttonTitle: "View application",
   },
   {
-    title: "Survival Quest",
+    title: "Wildescape",
     description:
-      "A survival game being developed using Unity and C# scripts, offering a high level of immersion and a wide range of features. The game is currently in the development phase, with much more to come soon.",
-    imageSrc: "/images/survival-quest.png",
-    link: "https://github.com/IzetDelibasic/survival-quest",
-    buttonTitle: "View repository",
+      "A survival game being developed using Unity and C# scripts, offering a high level of immersion and a wide range of features. The goal is to survive in the game, with systems for crafting, consuming food, and many more.",
+    imageSrc: "/images/wildescapeImage.png",
+    link: "https://www.youtube.com/watch?v=d3SVVpHpS5g",
+    buttonTitle: "View trailer",
   },
 ];
