@@ -14,4 +14,6 @@ export const gitImage = "/images/gitImage.webp";
 
 export const firebaseImage = "/images/firebaseImage.webp";
 
+export const velezCard = "/images/memberCard.webp";
+
 export const mongoDbImage = "/images/mongoDbImage.png";

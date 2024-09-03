@@ -31,4 +31,12 @@ export const projectsConstant = [
     link: "https://www.youtube.com/watch?v=d3SVVpHpS5g",
     buttonTitle: "View trailer",
   },
+  {
+    title: "Rukometni Klub Velež - Mostar",
+    description:
+      "This is my first production project: a dynamic web application for the Velež handball club, built with React and powered by Firebase and Firestore. It showcases the club's history, achievements, results, and news.",
+    imageSrc: "/images/memberCard.webp",
+    link: "https://rk-velez.vercel.app/",
+    buttonTitle: "View website",
+  },
 ];
