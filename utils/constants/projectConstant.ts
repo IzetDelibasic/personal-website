@@ -36,7 +36,7 @@ export const projectsConstant = [
     description:
       "This is my first production project: a dynamic web application for the Velež handball club, built with React and powered by Firebase and Firestore. It showcases the club's history, achievements, results, and news.",
     imageSrc: "/images/memberCard.webp",
-    link: "https://rk-velez.vercel.app/",
+    link: "https://rk-velez.com/",
     buttonTitle: "View website",
   },
 ];
